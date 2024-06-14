@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className='navbar'>
         <ul className="nav-menu">
-            <li><button>Home</button></li>
+            <li ><button><a href="/">Home</a></button></li>
             <li><button>Shop</button></li>
             <li><button>Mtn Bundle</button></li>
             <li><button>Tigo Bundle</button></li>
