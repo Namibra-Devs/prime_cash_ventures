@@ -142,3 +142,42 @@
 .custom-input {
     width: 30px;
 }
+.rate-text h3{
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+.rate-text p{
+    font-size: 12px;
+}
+.rate-text-prices1 ul li{
+    list-style: none;
+}
+
+.rate-text-prices2 ul li{
+    list-style: none;
+}
+
+.accessory-items1,.accessory-items2,.accessory-items3,.accessory-items4{
+    display: flex;
+    gap: 10px;
+}
+
+.accessory-text h3{
+    font-size: 17px;
+}
+.accessory-text p {
+    font-size: 12px;
+}
+.accessory-text h4{
+    font-size: 15px;
+}
+.accessory-img img{
+    width: 100px;
+    
+}
+
+.accessory-img{
+    border: 1px solid #ccc;
+    height: 110px;
+}
