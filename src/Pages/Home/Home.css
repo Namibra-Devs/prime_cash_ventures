@@ -171,6 +171,7 @@
 }
 .accessory-text h4{
     font-size: 15px;
+    
 }
 .accessory-img img{
     width: 100px;
@@ -180,4 +181,25 @@
 .accessory-img{
     border: 1px solid #ccc;
     height: 110px;
+}
+
+.review-img img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.review-comments{
+    display: flex;
+    gap: 10px;
+}
+
+.review-text p{
+    font-size: 12px;
+}
+
+.reviews{
+    background: rgba(255, 255, 255, 1);
+    height: 430px;
+    padding: 15px;
+    margin-top: 40px;
 }

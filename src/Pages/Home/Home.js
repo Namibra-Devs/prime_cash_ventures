@@ -7,6 +7,8 @@ import pad from '../../Components/Assets/pad.png'
 import rerouter from '../../Components/Assets/rerouter.png'
 import at from '../../Components/Assets/at.jpg'
 import mtn from '../../Components/Assets/mtn.jpg'
+import man from '../../Components/Assets/man.jpeg'
+import star from '../../Components/Assets/star_icon.png'
 
 const Home = () => {
   return (
@@ -252,7 +254,59 @@ const Home = () => {
                 </div>
 
                 <button>Shop now</button>
+
+               
             </div>
+
+            <div className="reviews">
+                    <div style={{display:'flex',justifyContent:'space-between'}}>
+                    <div><p>Our agent reviews</p></div>
+                    
+                    <div style={{flex:''}}><button>Filter</button></div>
+
+                    </div>
+                    <div className="review-box">
+                        <div className="review-comments">
+                        <div className="review-img">
+                            <img src={man} alt="" />
+                        </div>
+                        <div className="review-star">
+                            <h4>Amin Idrissu</h4>
+                            <img src={star} alt="" />
+                            <img src={star} alt="" />
+                            <img src={star} alt="" />
+                            <img src={star} alt="" />
+                            <img src={star} alt="" />
+                        </div>
+                    </div>
+                    <div className="review-text">
+                            <p>Lorem ipsum dolor sit amet consectetur. Commodo quam turpis faucibus enim proin mauris eget justo. Porttitor elementum at aliquam phasellus convallis. Et viverra duis lectus ipsum lectus non malesuada. Dolor varius adipiscing integer pretium </p>
+                    </div>
+                       
+                    </div>
+                    
+                    <div className="review-box">
+                        <div className="review-comments">
+                        <div className="review-img">
+                            <img src={man} alt="" />
+                        </div>
+                        <div className="review-star">
+                            <h4>Amin Idrissu</h4>
+                            <img src={star} alt="" />
+                            <img src={star} alt="" />
+                            <img src={star} alt="" />
+                            <img src={star} alt="" />
+                            <img src={star} alt="" />
+                        </div>
+                    </div>
+                    <div className="review-text">
+                            <p>Lorem ipsum dolor sit amet consectetur. Commodo quam turpis faucibus enim proin mauris eget justo. Porttitor elementum at aliquam phasellus convallis. Et viverra duis lectus ipsum lectus non malesuada. Dolor varius adipiscing integer pretium </p>
+                    </div>
+                       
+                    </div>
+                   
+                    
+                </div>
            
 
         </div>
