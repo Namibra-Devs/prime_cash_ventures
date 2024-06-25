@@ -3,20 +3,26 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 180px;
 
     
 }
+.banner-text{
+    margin-top: 40px;
+}
 
 .banner-text h2 {
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 600;
     color: white;
+    margin-left: 60px;
 }
 
 .banner-text p {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     color: white;
+    margin-left: 50px;
 }
 
 .banner-img{
@@ -24,9 +30,6 @@
     background-color: white;
     width: 500px;
     height: 100px;
-    padding-top: 30px;
-    padding-right: 5px;
-    
     border-style: solid;
     border-width: 4px;
     border-color: yellow;

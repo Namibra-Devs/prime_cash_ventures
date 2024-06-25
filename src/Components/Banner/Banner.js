@@ -14,11 +14,11 @@ const Banner = () => {
         <div className='banner-text'>
         <h2>PRIME HOMES DATA PACKAGES</h2>
         <p>Your trusted plug and dealer in great mobile unlimited <br /> bundles with a touch of quality and great electronic <br /> appliances</p>
-            <img style={{width:'110px',height:'84px'}} src={laptop} />
-            <img style={{width:'54px',height:'54px'}} src={pad} />
-            <img style={{width:'42px',height:'42px'}} src={rerouter} />
-            <img style={{width:'41px',height:'41px'}} src={mouse} />
-            <img style={{width:'27px',height:'33px'}} src={headphones} />
+            <img style={{width:'100px',height:'84px'}} src={laptop} />
+            <img style={{width:'50px',height:'54px'}} src={pad} />
+            <img style={{width:'40px',height:'42px'}} src={rerouter} />
+            <img style={{width:'38px',height:'41px'}} src={mouse} />
+            <img style={{width:'20px',height:'33px'}} src={headphones} />
         </div>
         
         <div style={{display:'flex'}}>

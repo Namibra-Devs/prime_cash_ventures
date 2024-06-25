@@ -9,6 +9,9 @@ import at from '../../Components/Assets/at.jpg'
 import mtn from '../../Components/Assets/mtn.jpg'
 import man from '../../Components/Assets/man.jpeg'
 import star from '../../Components/Assets/star_icon.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+
 
 const Home = () => {
   return (
@@ -21,10 +24,19 @@ const Home = () => {
     <div className="main">
         <div className="left-side">
             <div className="container-fluid " id='product'>
-                <div className='product-img'>
-                <img src={whiteheadphones} alt="" />
+                <div className='product-img'style={{display:'flex'}}>
+                    <div className="headphone-main">
+                    <img src={whiteheadphones} alt="" style={{marginTop:'30px'}}/>
+                    </div>
+                    <div className="headphone-sub" style={{display:'flex',flexDirection:'column',justifyContent:'space-between',alignItems:'flex-end',marginLeft:'150px',marginTop:'30px',textAlign:'center'}}>
+                       <div style={{width:'110px',height:'105px'}}><img src={whiteheadphones} alt=""  style={{width:'50px',height:'105px',transform:'scaleX(-1)'}}/></div> 
+                       <div style={{width:'110px',height:'105px'}}><img src={whiteheadphones} alt="" style={{width:'50px',height:'105px'}} /></div>
+                       <div style={{width:'110px',height:'105px'}}><img src={whiteheadphones} alt=""  style={{width:'50px',height:'105px',transform:'scaleX(-1)'}}/></div>
+                    </div>
+                
                 </div>
                 <div className='product-details'>
+                    <div>
                     <h3>Samsung headphones</h3>
                     <img src={star_icon} alt="" />
                     <img src={star_icon} alt="" />
@@ -32,40 +44,68 @@ const Home = () => {
                     <img src={star_icon} alt="" />
                     <img src={star_icon} alt="" />
                     <p>Ghs 45,000.00</p>
+                    </div>
+
+                    <div style={{ marginLeft: '200px', marginBottom: '20px', color: 'white' }}>
+                    <button style={{ background: 'rgba(6, 154, 217, 1)', color: 'white', width: '90px', height: '30px', borderRadius: '45px', fontSize: '10px' }}>
+                        Buy now <FontAwesomeIcon icon={faArrowRight} />
+                    `   </button>
+                   </div>
                 </div>
             
             </div>
-            <div className="items-background">
+            <div className="items-background" style={{marginTop:'20px',background:'rgba(255, 255, 255, 1)', marginLeft:'130px'}}>
                 <div className="items">
                 <div>
-                    <img src={laptop} alt="" />
-                    <h3>MacBook Laptop</h3>
-                    <p>Ghs 45,000.00</p>
+                   <img src={laptop} alt="" />
+                   <div style={{height:'50px',width:'150px',marginLeft:'-10px',background:'rgba(51, 51, 51, 1)',color:'white'}}>
+                   <h3>MacBook Laptop</h3>
+                   <p>Ghs 45,000.00</p>
+                    </div> 
+                    
                 </div>
                 <div>
                     <img src={pad} alt="" />
+                    <div style={{height:'50px',width:'150px',marginLeft:'-10px',background:'rgba(51, 51, 51, 1)',color:'white'}}>
                     <h3>XBOX Game Pad</h3>
                     <p>Ghs 45,000.00</p>
+                    </div>
+                  
                 </div>
                 <div>
                     <img src={rerouter} alt="" />
+                    <div style={{height:'50px',width:'150px',marginLeft:'-10px',background:'rgba(51, 51, 51, 1)',color:'white'}}>
                     <h3>XBOX Game Pad</h3>
                     <p>Ghs 45,000.00</p>
+                    </div>
+                    
                 </div>
                 <div>
                     <img src={laptop} alt="" />
+                    <div style={{height:'50px',width:'150px',marginLeft:'-10px',background:'rgba(51, 51, 51, 1)',color:'white'}}>
                     <h3>MacBook Laptop</h3>
                     <p>Ghs 45,000.00</p>
+                    </div>
+                    
                 </div>
                 <div>
                     <img src={pad} alt="" />
+                    <div style={{height:'50px',width:'150px',marginLeft:'-10px',background:'rgba(51, 51, 51, 1)',color:'white'}}>
                     <h3>XBOX Game Pad</h3>
                     <p>Ghs 45,000.00</p>
+
+                    </div>
+                   
                 </div>
                 <div>
                     <img src={rerouter} alt="" />
+                    <div style={{height:'50px',width:'150px',marginLeft:'-10px',background:'rgba(51, 51, 51, 1)',color:'white'}}>
                     <h3>XBOX Game Pad</h3>
                     <p>Ghs 45,000.00</p>
+                    
+
+                    </div>
+                    
                 </div>
 
                 </div>
@@ -105,7 +145,7 @@ const Home = () => {
         </div>
 
         <div className="right-side">
-            <div className="at" style={{background:'rgba(255, 255, 255, 1)',padding:'10px',marginTop:'40px'}}>
+            <div className="at" style={{background:'rgba(255, 255, 255, 1)',padding:'10px',marginTop:'20px'}}>
             <div className="input">
                 <input type="text" placeholder='Search for products and offers'style={{width:'300px'}} /> <button style={{width:'100px'}}>Search</button>
             </div>
@@ -158,7 +198,7 @@ const Home = () => {
             </div>
             </div>
 
-            <div className="mtn" style={{background:'rgba(255, 255, 255, 1)',padding:'10px',marginTop:'40px'}}>
+            <div className="mtn" style={{background:'rgba(255, 255, 255, 1)',padding:'10px',marginTop:'20px'}}>
             <div className='mtn-rates' style={{display:'flex', gap:'10px'}}>
             
                 <div>
@@ -207,7 +247,7 @@ const Home = () => {
 
             </div>
             </div>
-            <div className="accessories" style={{background:'rgba(255, 255, 255, 1)',padding:'10px',marginTop:'40px'}}>
+            <div className="accessories" style={{background:'rgba(255, 255, 255, 1)',padding:'10px',marginTop:'20px'}}>
                 <p>Our online shop we deals in all electronic accessories</p>
                 <div className="accessory-items1">
                     <div className='accessory-img'>
@@ -284,7 +324,7 @@ const Home = () => {
                     </div>
                        
                     </div>
-                    
+
                     <div className="review-box">
                         <div className="review-comments">
                         <div className="review-img">
