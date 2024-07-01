@@ -38,15 +38,15 @@ const Footer = () => {
 
               <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold">Our Information</h6>
-                <p><a href="#!" className="text-white" style={{ textDecoration: 'none' }}>Privacy</a></p>
+                <p><a href="/privacy" className="text-white" style={{ textDecoration: 'none' }}>Privacy</a></p>
                 <p><a href="#!" className="text-white" style={{ textDecoration: 'none' }}>User Terms & Conditions</a></p>
-                <p><a href="#!" className="text-white" style={{ textDecoration: 'none' }}>Return Policy</a></p>
+                <p><a href="/return-policy" className="text-white" style={{ textDecoration: 'none' }}>Return Policy</a></p>
               </div>
 
               <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold">Contact Info</h6>
                 <p><a href="tel:+233024001144" className="text-white" style={{ textDecoration: 'none' }}>+233(0)24001144</a></p>
-                <p><a href="mailto:raymondbog@gmail.com" className="text-white" style={{ textDecoration: 'none' }}>raymondbog@gmail.com</a></p>
+                <p><a href="mailto:primecashventures@gmail.com" className="text-white" style={{ textDecoration: 'none' }}>raymondbog@gmail.com</a></p>
                 <p><a href="#!" className="text-white" style={{ textDecoration: 'none' }}>Online Shop</a></p>
               </div>
             </div>

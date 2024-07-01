@@ -9,9 +9,9 @@ const Navbar = () => {
     <div className='navbar'>
         <ul className="nav-menu">
             <li ><button><a href="/">Home</a></button></li>
-            <li><button>Shop</button></li>
-            <li><button>Mtn Bundle</button></li>
-            <li><button>Tigo Bundle</button></li>
+            <li ><button><a href="/shop">Shop</a></button></li>
+            <li><button><a href="/mtn">Mtn Bundle</a></button></li>
+            <li><button><a href="/at">Tigo Bundle</a></button></li>
         </ul>
         <div className="login-cart">
             <FontAwesomeIcon icon={faShoppingCart} style={{width:'20px',height:'30px'}}/>

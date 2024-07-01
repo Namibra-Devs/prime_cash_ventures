@@ -26,6 +26,11 @@
     cursor: pointer;
 }
 
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+}
+
 .nav-menu button {
     background-color: rgba(51, 51, 51, 1);
     color: white;

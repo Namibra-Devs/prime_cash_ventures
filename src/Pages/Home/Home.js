@@ -59,40 +59,41 @@ const Home = () => {
                 <div>
                    <img src={laptop} alt="" />
                    <div style={{height:'50px',width:'150px',marginLeft:'-10px',background:'rgba(51, 51, 51, 1)',color:'white'}}>
-                   <h3>MacBook Laptop</h3>
-                   <p>Ghs 45,000.00</p>
+                   <h3>MacBook Laptop <br /> Ghs 45,000.00</h3>
+                   
                     </div> 
                     
                 </div>
                 <div>
                     <img src={pad} alt="" />
                     <div style={{height:'50px',width:'150px',marginLeft:'-10px',background:'rgba(51, 51, 51, 1)',color:'white'}}>
-                    <h3>XBOX Game Pad</h3>
-                    <p>Ghs 45,000.00</p>
+                    <h3>XBOX Game Pad <br /> Ghs 45,000.00</h3>
+                    
                     </div>
                   
                 </div>
                 <div>
                     <img src={rerouter} alt="" />
                     <div style={{height:'50px',width:'150px',marginLeft:'-10px',background:'rgba(51, 51, 51, 1)',color:'white'}}>
-                    <h3>XBOX Game Pad</h3>
-                    <p>Ghs 45,000.00</p>
+                    <h3>XBOX Game Pad <br /> Ghs 45,000.00</h3>
+                    
                     </div>
                     
                 </div>
                 <div>
                     <img src={laptop} alt="" />
                     <div style={{height:'50px',width:'150px',marginLeft:'-10px',background:'rgba(51, 51, 51, 1)',color:'white'}}>
-                    <h3>MacBook Laptop</h3>
-                    <p>Ghs 45,000.00</p>
+                    <h3>MacBook Laptop <br /> Ghs 45,000.00</h3>
+                    
+
                     </div>
                     
                 </div>
                 <div>
                     <img src={pad} alt="" />
                     <div style={{height:'50px',width:'150px',marginLeft:'-10px',background:'rgba(51, 51, 51, 1)',color:'white'}}>
-                    <h3>XBOX Game Pad</h3>
-                    <p>Ghs 45,000.00</p>
+                    <h3>XBOX Game Pad  <br /> Ghs 45,000.00</h3>
+                    
 
                     </div>
                    
@@ -100,8 +101,8 @@ const Home = () => {
                 <div>
                     <img src={rerouter} alt="" />
                     <div style={{height:'50px',width:'150px',marginLeft:'-10px',background:'rgba(51, 51, 51, 1)',color:'white'}}>
-                    <h3>XBOX Game Pad</h3>
-                    <p>Ghs 45,000.00</p>
+                    <h3>XBOX Game Pad <br /> Ghs 45,000.00</h3>
+                    
                     
 
                     </div>
@@ -112,34 +113,34 @@ const Home = () => {
             </div>
             <div className="bundles">
                 <div>
-                        <img src={at} alt="" />
-                        <h3>10GB Unlimited Bundle</h3>
-                        <p>Ghs 40.00</p>
+                        <img src={at} alt=""/>
+                        <h3>10GB Unlimited Bundle <br /> Ghs 40.00</h3>
+                        
                 </div> 
                 <div>
                         <img src={at} alt="" />
-                        <h3>30GB Unlimited Bundle</h3>
-                        <p>Ghs 125.00</p>
+                        <h3>30GB Unlimited Bundle <br /> Ghs 125.00</h3>
+                        
                 </div>
                 <div>
                         <img src={at} alt="" />
-                        <h3>100GB Unlimited Bundle</h3>
-                        <p>Ghs 350.00</p>
+                        <h3>100GB Unlimited Bundle <br /> Ghs 350.00</h3>
+                        
                 </div>
                 <div>
                         <img src={mtn} alt="" />
-                        <h3>10GB Unlimited Bundle</h3>
-                        <p>Ghs 40.00</p>
+                        <h3>10GB Unlimited Bundle <br /> Ghs 40.00</h3>
+                        
                 </div>
                 <div>
                         <img src={mtn} alt="" />
-                        <h3>30GB Unlimited Bundle</h3>
-                        <p>Ghs 125.00</p>
+                        <h3>30GB Unlimited Bundle <br /> Ghs 125.00</h3>
+                        
                 </div>
                 <div>
                         <img src={mtn} alt="" />
-                        <h3>100GB Unlimited Bundle</h3>
-                        <p>Ghs 350.00</p>
+                        <h3>100GB Unlimited Bundle <br /> Ghs 350.00</h3>
+                        
                 </div>
             </div>
         </div>
@@ -147,12 +148,12 @@ const Home = () => {
         <div className="right-side">
             <div className="at" style={{background:'rgba(255, 255, 255, 1)',padding:'10px',marginTop:'20px'}}>
             <div className="input">
-                <input type="text" placeholder='Search for products and offers'style={{width:'300px'}} /> <button style={{width:'100px'}}>Search</button>
+                <input type="text" placeholder='Search for products and offers'style={{width:'200px',fontSize:'14px'}} /> <button style={{width:'100px'}}>Search</button>
             </div>
             <div className='at-rates' style={{display:'flex', gap:'10px'}}>
             
                 <div>
-                   <img style={{width:'200px'}} src={at} alt="" />
+                   <img style={{width:'100px'}} src={at} alt="" />
                 </div>
 
                 <div>
@@ -160,8 +161,8 @@ const Home = () => {
                     <h3>AIRTEL TIGO UNLIMITED INTERNET <br />BUNDLES</h3>
                     <p>Very affordable at all prices and last longer ranges from</p>
 
-                  <div className="rate-text-prices" style={{display:'flex'}}>
-                   <div className="rate-text-prices1" style={{marginRight:'10px'}}>
+                  <div className="rate-text-prices" style={{display:'flex',border:'1px solid #ccc',borderRadius:'8px', boxShadow:'0px 4px 4px 0px rgba(0, 0, 0, 0.1)'}}>
+                   <div className="rate-text-prices1" style={{marginLeft:'-20px'}}>
                         <ul>
                             <li>1GB = Ghs 4.00</li>
                             <li>1GB = Ghs 4.00</li>
@@ -202,7 +203,7 @@ const Home = () => {
             <div className='mtn-rates' style={{display:'flex', gap:'10px'}}>
             
                 <div>
-                   <img style={{width:'200px'}} src={mtn} alt="" />
+                   <img style={{width:'100px'}} src={mtn} alt="" />
                 </div>
 
                 <div>
@@ -210,8 +211,8 @@ const Home = () => {
                     <h3>AIRTEL TIGO UNLIMITED INTERNET <br />BUNDLES</h3>
                     <p>Very affordable at all prices and last longer ranges from</p>
 
-                  <div className="rate-text-prices" style={{display:'flex'}}>
-                   <div className="rate-text-prices1" style={{marginRight:'10px'}}>
+                  <div className="rate-text-prices" style={{display:'flex', border:'1px solid #ccc',borderRadius:'8px',boxShadow:'0px 4px 4px 0px rgba(0, 0, 0, 0.1)'}}>
+                   <div className="rate-text-prices1" style={{marginLeft:'-20px'}}>
                         <ul>
                             <li>1GB = Ghs 4.00</li>
                             <li>1GB = Ghs 4.00</li>

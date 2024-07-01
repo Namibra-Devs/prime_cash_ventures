@@ -1,0 +1,37 @@
+.bundles-offers{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 3 columns */
+    grid-template-rows: repeat(5, auto);  /* 2 rows */
+    gap: 50px; /* equal spacing between items */
+    padding: 20px; /* optional padding around the grid */
+    max-width: 1000px; /*limit the maximum width of the grid */
+    margin: 0 auto;
+    width: 900px;
+    text-align: center;
+    margin-top:40px;
+}
+
+.bundles-offers > div {
+    border: 1px solid #ccc; /* optional styling */
+    padding: 10px;
+    text-align: center;
+    width: 200px; /* set specific width for grid items */
+    height: 170px;
+
+   
+}
+
+.bundles-offers img {
+    max-width: 100%; /* make sure images fit within their containers */
+    height: auto; /* maintain aspect ratio */
+    max-height: 80px; /* limit the height of images */
+
+}
+
+.bundles-offers h3 {
+    font-size: 12px;
+}
+
+.bundles-offers p{
+    font-size:10px ;
+}

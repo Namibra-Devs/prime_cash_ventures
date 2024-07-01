@@ -5,6 +5,11 @@ import Navbar from './Components/Navbar/Navbar';
 import Home from './Pages/Home/Home';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Footer from './Components/Footer/Footer';
+import Shop from './Pages/Shop/Shop';
+import Mtnbundle from './Pages/Mtn/Mtnbundle';
+import Atbundle from './Pages/AT/Atbundle';
+import Privacy from './Pages/Privacy/Privacy';
+import ReturnPolicy from './Pages/Return-Policy/ReturnPolicy';
 
 
 
@@ -16,7 +21,12 @@ function App() {
       <Navbar />
        <Routes>
         <Route path='/' element={<Home />} />
-       </Routes>
+        <Route path='/shop' element={<Shop />} />
+        <Route path='/mtn' element={<Mtnbundle />} />
+        <Route path='/at' element={<Atbundle />} />
+        <Route path='/privacy' element={<Privacy />} />
+        <Route path='/return-policy' element={<ReturnPolicy />} />
+        </Routes>
        <Footer />
 
       
