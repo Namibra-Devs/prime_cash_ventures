@@ -59,9 +59,9 @@
     grid-template-rows: repeat(2, auto);  /* 2 rows */
     gap: 20px; /* equal spacing between items */
     padding: 20px; /* optional padding around the grid */
-    max-width: 600px; /*limit the maximum width of the grid */
+    max-width: 750px; /*limit the maximum width of the grid */
     margin: 0 auto;
-    width: 600px;
+    width: 750px;
     text-align: center;
 
 }
@@ -70,7 +70,7 @@
     border: 1px solid #ccc; /* optional styling */
     padding: 10px;
     text-align: center;
-    width: 150px; /* set specific width for grid items */
+    width: 200px; /* set specific width for grid items */
     height: 150px;
     background: rgba(244, 244, 244, 1);
    
@@ -106,7 +106,7 @@
     justify-content: center; /* center horizontally */
     align-items: center; /* center vertically */
     background: rgba(244, 244, 244, 1); /* optional background color */
-    width: 600px;
+    width: 750px;
     margin-right: 70px;
 }
 
@@ -114,20 +114,21 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 columns */
     grid-template-rows: repeat(2, auto);  /* 2 rows */
-    gap: 50px; /* equal spacing between items */
+    gap: 45px; /* equal spacing between items */
     padding: 20px; /* optional padding around the grid */
-    max-width: 600px; /*limit the maximum width of the grid */
-    margin: 0 auto;
+    max-width: 750px; /*limit the maximum width of the grid */
+    margin-left: 110px;
     width: 600px;
     text-align: center;
     margin-top: 120px;
+
 }
 
 .bundles > div {
     border: 1px solid #ccc; /* optional styling */
     padding: 10px;
     text-align: center;
-    width: 170px; /* set specific width for grid items */
+    width: 220px; /* set specific width for grid items */
     height: 150px;
 
    
@@ -137,16 +138,14 @@
     max-width: 100%; /* make sure images fit within their containers */
     height: auto; /* maintain aspect ratio */
     max-height: 80px; /* limit the height of images */
+    
 
 }
 
 .bundles h3 {
-    font-size: 12px;
+    font-size: 11px;
 }
 
-.bundles p{
-    font-size:10px ;
-}
 
 .main {
     display: flex;
