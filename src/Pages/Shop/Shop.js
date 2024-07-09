@@ -9,6 +9,8 @@ import phone from '../../Components/Assets/phone.png'
 import iphone from '../../Components/Assets/iphone.png'
 import whiteheadset from '../../Components/Assets/whiteheadphones.png'
 import airbuds from '../../Components/Assets/airbuds.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -28,56 +30,91 @@ const Shop = () => {
             </div>
 
             <div>
-                <div className='shop-grid' style={{background:'blue', textAlign:'center'}}>
+                <div className='shop-grid' style={{}}>
                         <div className='product-item'>
                         <img src={laptop} alt="" />
-                        <div>
-                            <h3>MacBook Laptop</h3>
-                            <p>Ghs 45,000.00</p>
-                         </div> 
-                            
-                        </div>
-                        <div className='product-item'>
-                            <img src={pad} alt="" />
+                        <div className='text' style={{background:'rgba(51, 51, 51, 1)',color:'white'}} >
                             <div>
-                            <h3>XBOX Game Pad</h3>
+                            <h3>MacBook Laptop</h3>
                             <p>Ghs 45,000.00</p>
                             </div>
                         
-                        </div>
-                        <div className='product-item'>
-                            <img src={rerouter} alt="" />
-                            <div>
-                            <h3>XBOX Game Pad</h3>
-                            <p>Ghs 45,000.00</p>
-                            </div>
+                            <button style={{color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px' }}>
+                                  Buy now <FontAwesomeIcon icon={faArrowRight} />
+                            </button>
+                        </div> 
                             
                         </div>
+
                         <div className='product-item'>
-                            <img src={jbl} alt="" />
+                            <img src={pad} alt="" />
+                            <div className='text' style={{background:'rgba(51, 51, 51, 1)',color:'white'}} >
                             <div>
                             <h3>MacBook Laptop</h3>
                             <p>Ghs 45,000.00</p>
-                           
+                            </div>
+                        
+                            <button style={{ color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px' }}>
+                                  Buy now <FontAwesomeIcon icon={faArrowRight} />
+                            </button>
+                            </div>
+                        
+                        </div>
+
+                        <div className='product-item'>
+                            <img src={rerouter} alt="" />
+                            <div className='text' style={{background:'rgba(51, 51, 51, 1)',color:'white'}} >
+                            <div>
+                            <h3>MacBook Laptop</h3>
+                            <p>Ghs 45,000.00</p>
+                            </div>
+                        
+                            <button style={{color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px' }}>
+                                  Buy now <FontAwesomeIcon icon={faArrowRight} />
+                            </button>
+                        </div>
+                            
+                        </div>
+
+                        <div className='product-item'>
+                            <img src={jbl} alt="" />
+                            <div className='text' style={{background:'rgba(51, 51, 51, 1)',color:'white'}} >
+                            <div>
+                            <h3>MacBook Laptop</h3>
+                            <p>Ghs 45,000.00</p>
+                            </div>
+                        
+                            <button style={{color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px' }}>
+                                  Buy now <FontAwesomeIcon icon={faArrowRight} />
+                            </button>
                             </div>
                             
                         </div>
                         <div className='product-item'>
                             <img src={headphones} alt="" />
+                            <div className='text' style={{background:'rgba(51, 51, 51, 1)',color:'white'}} >
                             <div>
-                            <h3>XBOX Game Pad</h3>
+                            <h3>MacBook Laptop</h3>
                             <p>Ghs 45,000.00</p>
-
+                            </div>
+                        
+                            <button style={{ color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px' }}>
+                                  Buy now <FontAwesomeIcon icon={faArrowRight} />
+                            </button>
                             </div>
                         
                         </div>
                         <div className='product-item'>
                             <img src={rerouter} alt="" />
+                            <div className='text' style={{background:'rgba(51, 51, 51, 1)',color:'white'}} >
                             <div>
-                            <h3>XBOX Game Pad</h3>
+                            <h3>MacBook Laptop</h3>
                             <p>Ghs 45,000.00</p>
-                            
-
+                            </div>
+                        
+                            <button style={{color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px' }}>
+                                  Buy now <FontAwesomeIcon icon={faArrowRight} />
+                            </button>
                             </div>
                             
                         </div>
@@ -90,82 +127,136 @@ const Shop = () => {
                 <div className="mobi-accessories">
                     <div className='product-item'>
                             <img src={jbl} alt="" />
+                            <div className='text' style={{background:'rgba(51, 51, 51, 1)',color:'white'}} >
                             <div>
-                                <h3>This MacBook Pro 16-inch </h3>
-                                <p>Ghs 45,000.00</p>
-                                </div> 
+                            <h3>MacBook Laptop</h3>
+                            <p>Ghs 45,000.00</p>
+                            </div>
+                        
+                            <button style={{color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px' }}>
+                                  Buy now <FontAwesomeIcon icon={faArrowRight} />
+                            </button>
+                            </div> 
                                 
                     </div>
 
                     <div className='product-item'>
                             <img src={phone} alt="" />
+                            <div className='text' style={{background:'rgba(51, 51, 51, 1)',color:'white'}} >
                             <div>
-                                <h3>XBOX GAME CONTROLLER(PAD) </h3>
-                                <p>Ghs 45,000.00</p>
-                                </div> 
+                            <h3>MacBook Laptop</h3>
+                            <p>Ghs 45,000.00</p>
+                            </div>
+                        
+                            <button style={{color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px' }}>
+                                  Buy now <FontAwesomeIcon icon={faArrowRight} />
+                            </button>
+                            </div>
                                 
                     </div>
 
                     <div className='product-item'>
                             <img src={iphone} alt="" />
+                            <div className='text' style={{background:'rgba(51, 51, 51, 1)',color:'white'}} >
                             <div>
-                                <h3>Dual Band Wifi router</h3>
-                                <p>Ghs 45,000.00</p>
-                                </div> 
+                            <h3>MacBook Laptop</h3>
+                            <p>Ghs 45,000.00</p>
+                            </div>
+                        
+                            <button style={{ color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px' }}>
+                                  Buy now <FontAwesomeIcon icon={faArrowRight} />
+                            </button>
+                            </div>
                                 
                     </div>
 
                     <div className='product-item'>
                             <img src={whiteheadset} alt="" />
+                            <div className='text' style={{background:'rgba(51, 51, 51, 1)',color:'white'}} >
                             <div>
-                                <h3>This MacBook Pro 16-inch </h3>
-                                <p>Ghs 45,000.00</p>
-                                </div> 
+                            <h3>MacBook Laptop</h3>
+                            <p>Ghs 45,000.00</p>
+                            </div>
+                        
+                            <button style={{color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px' }}>
+                                  Buy now <FontAwesomeIcon icon={faArrowRight} />
+                            </button>
+                            </div> 
                                 
                     </div>
 
                     <div className='product-item'>
                             <img src={headphones} alt="" />
+                            <div className='text' style={{background:'rgba(51, 51, 51, 1)',color:'white'}} >
                             <div>
-                                <h3>XBOX GAME CONTROLLER(PAD)</h3>
-                                <p>Ghs 45,000.00</p>
-                                </div> 
+                            <h3>MacBook Laptop</h3>
+                            <p>Ghs 45,000.00</p>
+                            </div>
+                        
+                            <button style={{ color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px' }}>
+                                  Buy now <FontAwesomeIcon icon={faArrowRight} />
+                            </button>
+                            </div> 
                                 
                     </div>
 
                     <div className='product-item'>
                             <img src={airbuds} alt="" />
+                            <div className='text' style={{background:'rgba(51, 51, 51, 1)',color:'white'}} >
                             <div>
-                                <h3>Dual Band Wifi router</h3>
-                                <p>Ghs 45,000.00</p>
-                                </div> 
+                            <h3>MacBook Laptop</h3>
+                            <p>Ghs 45,000.00</p>
+                            </div>
+                        
+                            <button style={{color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px' }}>
+                                  Buy now <FontAwesomeIcon icon={faArrowRight} />
+                            </button>
+                            </div> 
                                 
                     </div>
 
                     <div className='product-item'>
                             <img src={jbl} alt="" />
+                            <div className='text' style={{background:'rgba(51, 51, 51, 1)',color:'white'}} >
                             <div>
-                                <h3>This MacBook Pro 16-inch </h3>
-                                <p>Ghs 45,000.00</p>
-                                </div> 
+                            <h3>MacBook Laptop</h3>
+                            <p>Ghs 45,000.00</p>
+                            </div>
+                        
+                            <button style={{color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px' }}>
+                                  Buy now <FontAwesomeIcon icon={faArrowRight} />
+                            </button>
+                            </div> 
                                 
                     </div>
 
                     <div className='product-item'>
                             <img src={phone} alt="" />
+                            <div className='text' style={{background:'rgba(51, 51, 51, 1)',color:'white'}} >
                             <div>
-                                <h3>XBOX GAME CONTROLLER(PAD)</h3>
-                                <p>Ghs 45,000.00</p>
-                                </div> 
+                            <h3>MacBook Laptop</h3>
+                            <p>Ghs 45,000.00</p>
+                            </div>
+                        
+                            <button style={{color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px' }}>
+                                  Buy now <FontAwesomeIcon icon={faArrowRight} />
+                            </button>
+                            </div> 
                                 
                     </div>
 
                     <div className='product-item'>
                             <img src={iphone} alt="" />
+                            <div className='text' style={{background:'rgba(51, 51, 51, 1)',color:'white'}} >
                             <div>
-                                <h3>Dual Band Wifi Router</h3>
-                                <p>Ghs 45,000.00</p>
-                                </div> 
+                            <h3>MacBook Laptop</h3>
+                            <p>Ghs 45,000.00</p>
+                            </div>
+                        
+                            <button style={{ color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px' }}>
+                                  Buy now <FontAwesomeIcon icon={faArrowRight} />
+                            </button>
+                            </div> 
                                 
                     </div>
                  </div>

@@ -14,6 +14,7 @@ const Banner = () => {
         <div className='banner-text'>
         <h2>PRIME HOMES DATA PACKAGES</h2>
         <p>Your trusted plug and dealer in great mobile unlimited <br /> bundles with a touch of quality and great electronic <br /> appliances</p>
+        <div style={{marginLeft:'30px',marginBottom:'30px'}}>
             <img style={{width:'100px',height:'84px'}} src={laptop} />
             <img style={{width:'50px',height:'54px'}} src={pad} />
             <img style={{width:'40px',height:'42px'}} src={rerouter} />
@@ -21,9 +22,11 @@ const Banner = () => {
             <img style={{width:'20px',height:'33px'}} src={headphones} />
         </div>
         
+        </div>
+        
         <div style={{display:'flex'}}>
         <div className="banner-img">
-         <img style={{width:'80px',height:'60px'}} src={mtnlogo} /> <h3>PRIME HOMES DATA PACKAGES</h3> 
+         <img style={{width:'80px',height:'60px',marginLeft:'10px',marginTop:'15px'}} src={mtnlogo} /> <h3>PRIME HOMES DATA PACKAGES</h3> 
         
         </div>
         <div className="banner-girl">

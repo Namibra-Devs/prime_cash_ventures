@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <div style={{background: 'whitesmoke'}}>
     <div className="container-fluid home-text">
-      <div className="center-box">
+      <div className="center-box" style={{marginRight:'80px'}}>
         <p>Your trusted plug and dealer in great mobile unlimited bundles with a touch of quality and great <br /> electronic appliances</p>
       </div>
     </div>
@@ -133,17 +133,17 @@ const Home = () => {
             <div className="bundles">
                 <div>
                         <img src={at} alt=""/>
-                        <div style={{display:'flex',justifyContent:'space-between'}}>
-                          <h3>10GB Unlimited Bundle <br /> Ghs 40.00</h3>
+                        <div style={{display:'flex',justifyContent:'space-between',marginTop:'10px'}}>
+                          <h3>10GB Unlimited Bundle <br />Ghs 40.00</h3>
                           <button style={{ background: 'rgba(6, 154, 217, 1)', color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px' }}>
                            Buy now <FontAwesomeIcon icon={faArrowRight} />
-                        </button>
+                          </button>
                         </div>
                      
                 </div> 
                 <div>
                         <img src={at} alt="" />
-                        <div style={{display:'flex',justifyContent:'space-between'}}>
+                        <div style={{display:'flex',justifyContent:'space-between',marginTop:'10px'}}>
                           <h3>10GB Unlimited Bundle <br /> Ghs 40.00</h3>
                           <button style={{ background: 'rgba(6, 154, 217, 1)', color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px' }}>
                            Buy now <FontAwesomeIcon icon={faArrowRight} />
@@ -152,7 +152,7 @@ const Home = () => {
                 </div>
                 <div>
                         <img src={at} alt="" />
-                        <div style={{display:'flex',justifyContent:'space-between'}}>
+                        <div style={{display:'flex',justifyContent:'space-between',marginTop:'10px'}}>
                           <h3>10GB Unlimited Bundle <br /> Ghs 40.00</h3>
                           <button style={{ background: 'rgba(6, 154, 217, 1)', color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px' }}>
                            Buy now <FontAwesomeIcon icon={faArrowRight} />
@@ -161,7 +161,7 @@ const Home = () => {
                 </div>
                 <div>
                         <img src={mtn} alt="" />
-                        <div style={{display:'flex',justifyContent:'space-between'}}>
+                        <div style={{display:'flex',justifyContent:'space-between',marginTop:'10px'}}>
                           <h3>10GB Unlimited Bundle <br /> Ghs 40.00</h3>
                           <button style={{ background: 'rgba(6, 154, 217, 1)', color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px' }}>
                            Buy now <FontAwesomeIcon icon={faArrowRight} />
@@ -170,7 +170,7 @@ const Home = () => {
                 </div>
                 <div>
                         <img src={mtn} alt="" />
-                        <div style={{display:'flex',justifyContent:'space-between'}}>
+                        <div style={{display:'flex',justifyContent:'space-between',marginTop:'10px'}}>
                           <h3>10GB Unlimited Bundle <br /> Ghs 40.00</h3>
                           <button style={{ background: 'rgba(6, 154, 217, 1)', color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px' }}>
                            Buy now <FontAwesomeIcon icon={faArrowRight} />
@@ -179,7 +179,7 @@ const Home = () => {
                 </div>
                 <div>
                         <img src={mtn} alt="" />
-                        <div style={{display:'flex',justifyContent:'space-between'}}>
+                        <div style={{display:'flex',justifyContent:'space-between',marginTop:'10px'}}>
                           <h3>10GB Unlimited Bundle <br /> Ghs 40.00</h3>
                           <button style={{ background: 'rgba(6, 154, 217, 1)', color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px' }}>
                            Buy now <FontAwesomeIcon icon={faArrowRight} />
@@ -190,9 +190,9 @@ const Home = () => {
         </div>
 
         <div className="right-side">
-            <div className="at" style={{background:'rgba(255, 255, 255, 1)',padding:'10px',marginTop:'20px'}}>
+            <div className="at" style={{background:'rgba(255, 255, 255, 1)',padding:'10px',marginTop:'10px'}}>
             <div className="input">
-                <input type="text" placeholder='Search for products and offers'style={{width:'200px',fontSize:'14px'}} /> <button style={{width:'100px'}}>Search</button>
+                <input type="text" placeholder='Search for products and offers'style={{width:'200px',fontSize:'14px'}} /> <button style={{width:'100px',background:'rgba(6, 154, 217, 1)',color:'white',borderColor:'white'}}>Search</button>
             </div>
             <div className='at-rates' style={{display:'flex', gap:'10px'}}>
             
@@ -292,7 +292,7 @@ const Home = () => {
 
             </div>
             </div>
-            <div className="accessories" style={{background:'rgba(255, 255, 255, 1)',padding:'10px',marginTop:'20px'}}>
+            <div className="accessories" style={{background:'rgba(255, 255, 255, 1)',padding:'10px',marginTop:'10px',width:'360px'}}>
                 <p>Our online shop we deals in all electronic accessories</p>
                 <div className="accessory-items1">
                     <div className='accessory-img'>
@@ -338,7 +338,11 @@ const Home = () => {
                     </div>
                 </div>
 
-                <button>Shop now</button>
+               <div style={{textAlign:'center'}}>
+                    <button style={{ background: 'rgba(6, 154, 217, 1)', color: 'white', width: '100px', height: '40px', borderRadius: '45px', fontSize: '13px',marginTop:'10px',borderColor:'white' }}>
+                                Shop Now <FontAwesomeIcon icon={faArrowRight} />
+                    </button>
+               </div>
 
                
             </div>
