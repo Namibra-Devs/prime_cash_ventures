@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faShoppingCart,faCircleUser } from '@fortawesome/free-solid-svg-icons';
 import login from '../Assets/login.jpg'
 
+
 const Navbar = () => {
   return (
     <div className='navbar'>
@@ -14,7 +15,9 @@ const Navbar = () => {
             <li><button><a href="/at">Tigo Bundle</a></button></li>
         </ul>
         <div className="login-cart">
-            <FontAwesomeIcon icon={faShoppingCart} style={{width:'20px',height:'30px'}}/>
+          <a href="/cart">
+              <button><FontAwesomeIcon icon={faShoppingCart} style={{width:'20px',height:'30px'}} /></button>
+               </a>
             <div className="cart-count">0</div>
             <button style={{background:'rgba(51, 51, 51, 1)'}}>
             <FontAwesomeIcon icon={faCircleUser} style={{color:'white'}} />

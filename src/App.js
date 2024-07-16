@@ -10,6 +10,7 @@ import Mtnbundle from './Pages/Mtn/Mtnbundle';
 import Atbundle from './Pages/AT/Atbundle';
 import Privacy from './Pages/Privacy/Privacy';
 import ReturnPolicy from './Pages/Return-Policy/ReturnPolicy';
+import Cart from './Pages/Cart-Page/Cart';
 
 
 
@@ -26,6 +27,8 @@ function App() {
         <Route path='/at' element={<Atbundle />} />
         <Route path='/privacy' element={<Privacy />} />
         <Route path='/return-policy' element={<ReturnPolicy />} />
+        <Route path='/cart' element={<Cart />} />
+
         </Routes>
        <Footer />
 
