@@ -11,6 +11,9 @@ import whiteheadset from '../../Components/Assets/whiteheadphones.png'
 import airbuds from '../../Components/Assets/airbuds.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import Banner from '../../Components/Banner/Banner'
+import Navbar from '../../Components/Navbar/Navbar'
+import Footer from '../../Components/Footer/Footer'
 
 
 
@@ -19,11 +22,14 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const Shop = () => {
   return (
+      
     <div>
+        <Banner />
+        <Navbar />
         <div className="shop-main">
             <div className="shop-mini">
             <h3>Shop</h3>
-            <div class="search-container">
+            <div className="search-container">
                 <input type="text" placeholder="Search for products" />
                 <button>Search</button>
             </div>
@@ -263,6 +269,7 @@ const Shop = () => {
             </div>
 
         </div>
+        <Footer />
       
     </div>
   )

@@ -4,11 +4,11 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <div className="container-fluid my-5">
+    <div className="" style={{marginTop:'150px'}}>
       <footer className="text-center text-lg-start text-white" style={{ backgroundColor: '#1c2331' }}>
 
         <section className="">
-          <div className="container text-center text-md-start mt-5">
+          <div className=" text-center text-md-start mt-5">
             <div className="row mt-3">
               <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                 <div style={{ display: 'flex'}}>
@@ -53,14 +53,15 @@ const Footer = () => {
           </div>
         </section>
       </footer>
-      <div className="p-3" style={{display: 'flex', justifyContent: 'space-between', alignItems: 'stretch', color: 'white', minHeight: '100px',width:'100%',height:'100%', margin:'0',padding:'0'}}>
-          <div style={{ flex: '1', textAlign: 'center', fontSize: '13px',backgroundColor: 'rgba(6, 154, 217, 1)',margin:'0',padding:'0' }}>
+      <div className="" style={{display: 'flex', backgroundColor: '#1c2331',justifyContent: 'space-between', alignItems: 'stretch', color: 'white',width:'100%', marginBottom:"0"}}>
+          <div style={{ flex: '1', textAlign: 'center', fontSize: '13px',backgroundColor: 'rgba(6, 154, 217, 1)',margin:'0',padding:'0'}}>
             <p>© Prime Home Data Bundles All Right Reserved. Designed <br /> and developed by Namibra inc.</p>
           </div>
           <div style={{ flex: '1', backgroundColor: 'rgba(255, 255, 255, 1)',textAlign: 'center',justifyContent: 'center'}}>
             <p style={{ color: 'black' }}>BECOME OUR CHERISHED AGENT <a href="">SIGN IN</a></p>
           </div>
       </div>
+      
 
 
 

@@ -5,10 +5,11 @@
     gap: 45px; /* equal spacing between items */
     padding: 20px; /* optional padding around the grid */
     max-width: 750px; /*limit the maximum width of the grid */
-    margin-left: 110px;
+    /* margin-left: 200px; */
     width: 600px;
     text-align: center;
-    margin-top: 120px;
+    
+   
 
 }
 

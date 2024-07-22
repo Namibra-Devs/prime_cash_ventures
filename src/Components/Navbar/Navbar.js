@@ -15,13 +15,16 @@ const Navbar = () => {
             <li><button><a href="/at">Tigo Bundle</a></button></li>
         </ul>
         <div className="login-cart">
-          <a href="/cart">
-              <button><FontAwesomeIcon icon={faShoppingCart} style={{width:'20px',height:'30px'}} /></button>
-               </a>
+            <a href="/cart">
+              <button><FontAwesomeIcon icon={faShoppingCart} style={{}} /></button>
+             </a>
             <div className="cart-count">0</div>
+            <a href="/signin">
             <button style={{background:'rgba(51, 51, 51, 1)'}}>
             <FontAwesomeIcon icon={faCircleUser} style={{color:'white'}} />
             </button>
+            </a>
+           
         </div>
 
       

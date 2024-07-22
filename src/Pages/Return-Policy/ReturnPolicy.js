@@ -1,9 +1,14 @@
 import React from 'react'
 import './ReturnPolicy.css'
+import Footer from '../../Components/Footer/Footer'
+import Banner from '../../Components/Banner/Banner';
+import Navbar from '../../Components/Navbar/Navbar'
 
 const ReturnPolicy = () => {
   return (
     <div>
+          <Banner />
+          <Navbar />
         <div style={{display:'flex',justifyContent:'center',alignItems:'center',height:''}}>
 
             <div className='policy'> 
@@ -68,7 +73,7 @@ const ReturnPolicy = () => {
          </ol>
 
          </div>
-        
+        <Footer />
      
       
     </div>

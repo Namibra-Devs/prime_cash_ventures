@@ -1,12 +1,12 @@
 .banner{
     background-color: rgba(6, 154, 217, 1);
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     height: 200px;
-
     
 }
+
 .banner-text{
     margin-top: 40px;
 }
@@ -33,7 +33,7 @@
     border-style: solid;
     border-width: 4px;
     border-color: yellow;
-    margin-right: 30px;
+
 
 }
 
@@ -46,6 +46,48 @@
 .banner-girl img {
    width: 200px;
    height: 150px;
-   margin-right: 40px;
+   
   }
+
+  @media (max-width: 768px) {
+    .banner {
+        flex-direction: column;
+        margin-top: -20px;
+    
+    }
+
+    .banner-text h2 {
+        font-size: 0.8rem; /* Adjust heading size */
+    }
+
+    .banner-text p {
+        font-size: 0.5rem; /* Adjust paragraph size */
+    }
+    .banner-img {
+        margin-top: -80px;
+        height: 40px;
+    }
+
+    .banner-img img {
+        width: 100%; /* Adjust logo size */
+        height: 10px;
+        
+    }
+    .banner-img h3{
+      font-size: 0.8rem;
+      margin-top: 10px;
+    }
+
+    .banner-girl img {
+        width: 100%; /* Make the girl image responsive */
+        max-width: 200px; /* Limit max width */
+        height:10px;
+    }
+
+    .banner-text img {
+        width: 50px; /* Smaller icons for mobile */
+        height: auto;
+        margin: 5px;
+    }
+}
   

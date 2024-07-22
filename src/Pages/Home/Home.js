@@ -11,11 +11,17 @@ import man from '../../Components/Assets/man.jpeg'
 import star from '../../Components/Assets/star_icon.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import Banner from '../../Components/Banner/Banner'
+import Navbar from '../../Components/Navbar/Navbar'
+import Footer from '../../Components/Footer/Footer'
 
 
 const Home = () => {
   return (
-    <div style={{background: 'whitesmoke'}}>
+    <div>
+         <Banner />
+        <Navbar />
+         <div style={{background: 'whitesmoke'}}>
     <div className="container-fluid home-text">
       <div className="center-box" style={{marginRight:'80px'}}>
         <p>Your trusted plug and dealer in great mobile unlimited bundles with a touch of quality and great <br /> electronic appliances</p>
@@ -36,7 +42,7 @@ const Home = () => {
                 
                 </div>
                 <div className='product-details'>
-                    <div>
+                    <div style={{padding:'0',margin:'0'}}>
                     <h3>Samsung headphones</h3>
                     <img src={star_icon} alt="" />
                     <img src={star_icon} alt="" />
@@ -57,15 +63,17 @@ const Home = () => {
             <div className="items-background" style={{marginTop:'20px',background:'rgba(255, 255, 255, 1)', marginLeft:'130px'}}>
                 <div className="items">
                 <div>
-                   <img src={laptop} alt="" />
-                   <div style={{height:'50px',width:'200px',marginLeft:'-10px',background:'rgba(51, 51, 51, 1)',color:'white',display:'flex',marginTop:'20px',justifyContent:'space-between'}}>
+                    <a href="/productdetails">
+                       <img src={laptop} alt="" />
+                      <div style={{height:'50px',width:'200px',marginLeft:'-10px',background:'rgba(51, 51, 51, 1)',color:'white',display:'flex',marginTop:'20px',justifyContent:'space-between'}}>
                        <h3>XBOX Game Pad <br /> Ghs 45,000.00</h3>
 
                         <button style={{ background: 'rgba(6, 154, 217, 1)', color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px',marginTop:'30px' }}>
                         Buy now <FontAwesomeIcon icon={faArrowRight} />
                         </button>
-                    </div>
-                    
+                       </div>
+
+                    </a>   
                 </div>
 
                 <div>
@@ -405,7 +413,10 @@ const Home = () => {
    
     
 
+         </div>
+         <Footer />
     </div>
+    
   )
 }
 

@@ -1,9 +1,14 @@
 import React from 'react'
 import './Privacy.css'
+import Banner from '../../Components/Banner/Banner'
+import Navbar from '../../Components/Navbar/Navbar'
+import Footer from '../../Components/Footer/Footer'
 
 const Privacy = () => {
   return (
     <div>
+      <Banner />
+      <Navbar />
         <div style={{fontSize:'20px', padding:'50px'}}>
             <h3 style={{textAlign:'center',color:'rgba(6, 154, 217, 1)'}}>Privacy Policy</h3>
             <p style={{fontSize:'24'}}>This Cookie Policy explains what cookies are and how we use them. You should read this policy to understand what cookies are <br />
@@ -30,7 +35,7 @@ const Privacy = () => {
             </p>
            
         </div>
-        
+    < Footer /> 
       
     </div>
   )
