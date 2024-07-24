@@ -1,0 +1,59 @@
+.logo{
+    display: flex;
+}
+.logo img {
+    width:60px;
+    height: 40px;
+}
+.login-in{
+    height: 600px;
+    width: 50%;
+    
+
+ 
+}
+.login-img{
+    position:relative;
+    
+}
+.login-img img{
+    height: 100%;
+    width:100%;
+    height:640px;
+}
+.login{
+    position:absolute;
+    top: 0; 
+    right: 0;
+    transform: translate(-50%, -50%);
+    color:rgba(0, 0, 0, 1);
+    margin-top: 50px;
+    display: flex;
+    padding-left: 50px;
+   
+    
+}
+.login button{
+    background: rgba(6, 154, 217, 1);
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+
+
+}
+
+.Sign-in{
+    margin-top: 150px;
+    padding-right: 30px;
+}
+.SignBtn{
+    width: 350px;
+    background-color: rgba(6, 154, 217, 1);
+    color: white;
+    text-align: center;
+    height: 40px;
+    border-style: none;
+    border-radius: 5px;
+}
