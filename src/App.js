@@ -2,7 +2,6 @@
 import './App.css';
 import Home from './Pages/Home/Home';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
-import Footer from './Components/Footer/Footer';
 import Shop from './Pages/Shop/Shop';
 import Mtnbundle from './Pages/Mtn/Mtnbundle';
 import Atbundle from './Pages/AT/Atbundle';
