@@ -138,7 +138,6 @@
 
 .bundles img {
     max-width: 100%; /* make sure images fit within their containers */
-    /* maintain aspect ratio */
     height: 100px; /* limit the height of images */
     width: 100%;
     display: block;
