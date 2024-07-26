@@ -58,7 +58,8 @@ const Footer = () => {
             <p>© Prime Home Data Bundles All Right Reserved. Designed <br /> and developed by Namibra inc.</p>
           </div>
           <div style={{ flex: '1', backgroundColor: 'rgba(255, 255, 255, 1)',textAlign: 'center',justifyContent: 'center'}}>
-            <p style={{ color: 'black' }}>BECOME OUR CHERISHED AGENT SIGN IN</p>
+            <p style={{ color: 'black' }}>BECOME OUR CHERISHED AGENT SIGN IN
+            </p>
           </div>
       </div>
       

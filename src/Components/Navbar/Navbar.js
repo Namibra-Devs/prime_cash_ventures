@@ -1,14 +1,27 @@
-import React from 'react'
+import React, { useState } from 'react';
 import './Navbar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faShoppingCart,faCircleUser } from '@fortawesome/free-solid-svg-icons';
+import {faShoppingCart,faCircleUser,faBars} from '@fortawesome/free-solid-svg-icons';
 
 
 
 const Navbar = () => {
+  const [showMenu, setShowMenu] = useState(false);
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
+  };
   return (
     <div className='navbar'>
-        <ul className="nav-menu">
+            <div className="toggle-menu" onClick={toggleMenu}>
+        <FontAwesomeIcon icon={faBars} />
+      </div>
+        <ul className={`sidebar ${showMenu ? 'show' : ''}`}>
+            <li ><a href="/">Home</a></li>
+            <li ><a href="/shop">Shop</a></li>
+            <li><a href="/mtn">Mtn Bundle</a></li>
+            <li><a href="/at">Tigo Bundle</a></li>
+        </ul>
+        <ul className='nav-menu'>
             <li ><button><a href="/">Home</a></button></li>
             <li ><button><a href="/shop">Shop</a></button></li>
             <li><button><a href="/mtn">Mtn Bundle</a></button></li>

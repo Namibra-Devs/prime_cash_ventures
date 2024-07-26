@@ -231,3 +231,29 @@
     background:rgba(51, 51, 51, 1) ;
     border: 1px solid;
 }
+
+@media only screen and (max-width: 768px) {
+    .product-img {
+        flex-direction: column;
+        align-items: center;
+    }
+    .headphone-sub {
+        margin-top: 20px;
+    }
+    .product-details {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .product-img {
+        flex-direction: row;
+        align-items: center;
+    }
+    .headphone-sub {
+        margin-top: 10px;
+    }
+    .product-details {
+        margin-top: 10px;
+    }
+}

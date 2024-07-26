@@ -29,8 +29,8 @@ const Home = () => {
         </div>
         <div className="main">
             <div className="left-side">
-                <div className="container-fluid " id='product'>
-                    <div className='product-img'style={{display:'flex'}}>
+            <div className="container-fluid " id='product'>
+                    <div className='product-img'style={{display:'flex',justifyContent:'center'}}>
                         <div className="headphone-main">
                         <img src={whiteheadphones} alt="" style={{marginTop:'30px'}}/>
                         </div>
@@ -59,7 +59,7 @@ const Home = () => {
                     </div>
                     </div>
                 
-                </div>
+            </div>
                 <div className="items-background" style={{marginTop:'20px',background:'rgba(255, 255, 255, 1)', marginLeft:'130px'}}>
                     <div className="items">
                     <div>
