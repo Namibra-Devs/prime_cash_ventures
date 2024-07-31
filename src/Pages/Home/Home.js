@@ -27,8 +27,9 @@ const Home = () => {
             <p>Your trusted plug and dealer in great mobile unlimited bundles with a touch of quality and great <br /> electronic appliances</p>
             </div>
         </div>
-        <div className="main">
-            <div className="left-side">
+        <div className="maindiv">
+            <div className="">
+
             <div className="container-fluid " id='product'>
                     <div className='product-img'style={{display:'flex',justifyContent:'center'}}>
                         <div className="headphone-main">
@@ -60,141 +61,174 @@ const Home = () => {
                     </div>
                 
             </div>
-                <div className="items-background" style={{marginTop:'20px',background:'rgba(255, 255, 255, 1)', marginLeft:'130px'}}>
-                    <div className="items">
-                    <div>
-                        <a href="/productdetails">
-                        <img src={laptop} alt="" />
-                        <div style={{height:'50px',width:'200px',marginLeft:'-10px',background:'rgba(51, 51, 51, 1)',color:'white',display:'flex',marginTop:'20px',justifyContent:'space-between'}}>
-                        <h3>XBOX Game Pad <br /> Ghs 45,000.00</h3>
-
-                            <button style={{ background: 'rgba(6, 154, 217, 1)', color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px',marginTop:'30px' }}>
-                            Buy now <FontAwesomeIcon icon={faArrowRight} />
-                            </button>
+            {/* <div class="container overflow-hidden">
+                <div class="row gy-5">
+                    <div class="col-4">
+                        <div className="p-3 border bg-light" style={{width:'360px', height:'570px', paddingLeft:"100px"}}>
+                            <img src={whiteheadphones} alt="" />
                         </div>
-
-                        </a>   
                     </div>
-
-                    <div>
-                        <img src={pad} alt="" />
-                        <div style={{height:'50px',width:'200px',marginLeft:'-10px',background:'rgba(51, 51, 51, 1)',color:'white',display:'flex',marginTop:'20px',justifyContent:'space-between'}}>
-                        <h3>XBOX Game Pad <br /> Ghs 45,000.00</h3>
-
-                            <button style={{ background: 'rgba(6, 154, 217, 1)', color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px',marginTop:'30px' }}>
-                            Buy now <FontAwesomeIcon icon={faArrowRight} />
-                            </button>
+                    <div class="col-8">
+                        <div class="row gy-5 flex-column" style={{ paddingLeft: '60px' }}>
+                            <div class="col-12 d-flex">
+                                <div class="p-3 border bg-light" style={{width:'190px', height:'150px', display:'flex', alignItems:'center', justifyContent:'center'}}>
+                                    <img src={whiteheadphones} alt="" style={{width:'90px', height:'130px'}} />
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="p-3 border bg-light" style={{width:'190px', height:'150px', display:'flex', alignItems:'center', justifyContent:'center'}}>
+                                    <img src={whiteheadphones} alt="" style={{width:'90px', height:'130px'}} />
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="p-3 border bg-light" style={{width:'190px', height:'150px', display:'flex', alignItems:'center', justifyContent:'center'}}>
+                                    <img src={whiteheadphones} alt="" style={{width:'90px', height:'130px'}} />
+                                </div>
+                            </div>
                         </div>
-                    
-                    </div>
-
-                    <div>
-                        <img src={rerouter} alt="" />
-                        <div style={{height:'50px',width:'200px',marginLeft:'-10px',background:'rgba(51, 51, 51, 1)',color:'white',display:'flex',marginTop:'20px',justifyContent:'space-between'}}>
-                        <h3>XBOX Game Pad <br /> Ghs 45,000.00</h3>
-
-                            <button style={{ background: 'rgba(6, 154, 217, 1)', color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px',marginTop:'30px' }}>
-                            Buy now <FontAwesomeIcon icon={faArrowRight} />
-                            </button>
-                        </div>
-                        
-                    </div>
-
-                    <div>
-                        <img src={laptop} alt="" />
-                        <div style={{height:'50px',width:'200px',marginLeft:'-10px',background:'rgba(51, 51, 51, 1)',color:'white',display:'flex',marginTop:'20px',justifyContent:'space-between'}}>
-                        <h3>XBOX Game Pad <br /> Ghs 45,000.00</h3>
-
-                            <button style={{ background: 'rgba(6, 154, 217, 1)', color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px',marginTop:'30px' }}>
-                            Buy now <FontAwesomeIcon icon={faArrowRight} />
-                            </button>
-                        </div>
-                        
-                    </div>
-
-                    <div>
-                        <img src={pad} alt="" />
-                        <div style={{height:'50px',width:'200px',marginLeft:'-10px',background:'rgba(51, 51, 51, 1)',color:'white',display:'flex',marginTop:'20px',justifyContent:'space-between'}}>
-                        <h3>XBOX Game Pad <br /> Ghs 45,000.00</h3>
-
-                            <button style={{ background: 'rgba(6, 154, 217, 1)', color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px',marginTop:'30px' }}>
-                            Buy now <FontAwesomeIcon icon={faArrowRight} />
-                            </button>
-                        </div>
-                    
-                    </div>
-
-                    <div>
-                        <img src={rerouter} alt="" />
-                        <div style={{height:'50px',width:'200px',marginLeft:'-10px',background:'rgba(51, 51, 51, 1)',color:'white',display:'flex',marginTop:'20px',justifyContent:'space-between'}}>
-                        <h3>XBOX Game Pad <br /> Ghs 45,000.00</h3>
-
-                            <button style={{ background: 'rgba(6, 154, 217, 1)', color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px',marginTop:'30px' }}>
-                            Buy now <FontAwesomeIcon icon={faArrowRight} />
-                            </button>
-                        </div>
-                        
-                    </div>
-
                     </div>
                 </div>
-                <div className="bundles">
-                    <div>
-                            <img src={at} alt=""/>
-                            <div style={{display:'flex',justifyContent:'space-between',marginTop:'10px'}}>
-                            <h3>10GB Unlimited Bundle <br />Ghs 40.00</h3>
-                            <button style={{ background: 'rgba(6, 154, 217, 1)', color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px' }}>
-                            Buy now <FontAwesomeIcon icon={faArrowRight} />
-                            </button>
-                            </div>
-                        
-                    </div> 
-                    <div>
-                            <img src={at} alt="" />
-                            <div style={{display:'flex',justifyContent:'space-between',marginTop:'10px'}}>
-                            <h3>10GB Unlimited Bundle <br /> Ghs 40.00</h3>
-                            <button style={{ background: 'rgba(6, 154, 217, 1)', color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px' }}>
-                            Buy now <FontAwesomeIcon icon={faArrowRight} />
-                            </button>
-                            </div>
+            </div> */}
+
+
+
+            <div className="items-background" style={{marginTop:'20px',background:'rgba(255, 255, 255, 1)', marginLeft:'130px'}}>
+            <div className="items row">
+                <div className='col-sm-6 col-12'>
+                    <a href="/productdetails">
+                    <img src={laptop} alt=""  className='img-fluid'/>
+                    <div style={{height:'50px',width:'200px',marginLeft:'-10px',background:'rgba(51, 51, 51, 1)',color:'white',display:'flex',marginTop:'20px',justifyContent:'space-between'}}>
+                    <h3>XBOX Game Pad <br /> Ghs 45,000.00</h3>
+
+                        <button style={{ background: 'rgba(6, 154, 217, 1)', color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px',marginTop:'30px' }}>
+                        Buy now <FontAwesomeIcon icon={faArrowRight} />
+                        </button>
                     </div>
-                    <div>
-                            <img src={at} alt="" />
-                            <div style={{display:'flex',justifyContent:'space-between',marginTop:'10px'}}>
-                            <h3>10GB Unlimited Bundle <br /> Ghs 40.00</h3>
-                            <button style={{ background: 'rgba(6, 154, 217, 1)', color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px' }}>
-                            Buy now <FontAwesomeIcon icon={faArrowRight} />
-                            </button>
-                            </div>
-                    </div>
-                    <div>
-                            <img src={mtn} alt="" />
-                            <div style={{display:'flex',justifyContent:'space-between',marginTop:'10px'}}>
-                            <h3>10GB Unlimited Bundle <br /> Ghs 40.00</h3>
-                            <button style={{ background: 'rgba(6, 154, 217, 1)', color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px' }}>
-                            Buy now <FontAwesomeIcon icon={faArrowRight} />
-                            </button>
-                            </div>
-                    </div>
-                    <div>
-                            <img src={mtn} alt="" />
-                            <div style={{display:'flex',justifyContent:'space-between',marginTop:'10px'}}>
-                            <h3>10GB Unlimited Bundle <br /> Ghs 40.00</h3>
-                            <button style={{ background: 'rgba(6, 154, 217, 1)', color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px' }}>
-                            Buy now <FontAwesomeIcon icon={faArrowRight} />
-                            </button>
-                            </div>
-                    </div>
-                    <div>
-                            <img src={mtn} alt="" />
-                            <div style={{display:'flex',justifyContent:'space-between',marginTop:'10px'}}>
-                            <h3>10GB Unlimited Bundle <br /> Ghs 40.00</h3>
-                            <button style={{ background: 'rgba(6, 154, 217, 1)', color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px' }}>
-                            Buy now <FontAwesomeIcon icon={faArrowRight} />
-                            </button>
-                            </div>
-                    </div>
+
+                    </a>   
                 </div>
+
+                <div className='col-sm-6 col-12'>
+                    <img src={pad} alt="" />
+                    <div style={{height:'50px',width:'200px',marginLeft:'-10px',background:'rgba(51, 51, 51, 1)',color:'white',display:'flex',marginTop:'20px',justifyContent:'space-between'}}>
+                    <h3>XBOX Game Pad <br /> Ghs 45,000.00</h3>
+
+                        <button style={{ background: 'rgba(6, 154, 217, 1)', color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px',marginTop:'30px' }}>
+                        Buy now <FontAwesomeIcon icon={faArrowRight} />
+                        </button>
+                    </div>
+                
+                </div>
+
+                <div className='col-sm-6 col-12'>
+                    <img src={rerouter} alt="" />
+                    <div style={{height:'50px',width:'200px',marginLeft:'-10px',background:'rgba(51, 51, 51, 1)',color:'white',display:'flex',marginTop:'20px',justifyContent:'space-between'}}>
+                    <h3>XBOX Game Pad <br /> Ghs 45,000.00</h3>
+
+                        <button style={{ background: 'rgba(6, 154, 217, 1)', color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px',marginTop:'30px' }}>
+                        Buy now <FontAwesomeIcon icon={faArrowRight} />
+                        </button>
+                    </div>
+                    
+                </div>
+
+                <div className='col-sm-6 col-12'>
+                    <img src={laptop} alt="" />
+                    <div style={{height:'50px',width:'200px',marginLeft:'-10px',background:'rgba(51, 51, 51, 1)',color:'white',display:'flex',marginTop:'20px',justifyContent:'space-between'}}>
+                    <h3>XBOX Game Pad <br /> Ghs 45,000.00</h3>
+
+                        <button style={{ background: 'rgba(6, 154, 217, 1)', color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px',marginTop:'30px' }}>
+                        Buy now <FontAwesomeIcon icon={faArrowRight} />
+                        </button>
+                    </div>
+                    
+                </div>
+
+                <div className='col-sm-6 col-12'>
+                    <img src={pad} alt="" />
+                    <div style={{height:'50px',width:'200px',marginLeft:'-10px',background:'rgba(51, 51, 51, 1)',color:'white',display:'flex',marginTop:'20px',justifyContent:'space-between'}}>
+                    <h3>XBOX Game Pad <br /> Ghs 45,000.00</h3>
+
+                        <button style={{ background: 'rgba(6, 154, 217, 1)', color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px',marginTop:'30px' }}>
+                        Buy now <FontAwesomeIcon icon={faArrowRight} />
+                        </button>
+                    </div>
+                
+                </div>
+
+                <div className='col-sm-6 col-12'>
+                    <img src={rerouter} alt="" />
+                    <div style={{height:'50px',width:'200px',marginLeft:'-10px',background:'rgba(51, 51, 51, 1)',color:'white',display:'flex',marginTop:'20px',justifyContent:'space-between'}}>
+                    <h3>XBOX Game Pad <br /> Ghs 45,000.00</h3>
+
+                        <button style={{ background: 'rgba(6, 154, 217, 1)', color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px',marginTop:'30px' }}>
+                        Buy now <FontAwesomeIcon icon={faArrowRight} />
+                        </button>
+                    </div>
+                    
+                </div>
+
+            </div>
+            </div>
+
+
+            <div className="bundles">
+                <div>
+                        <img src={at} alt=""/>
+                        <div style={{display:'flex',justifyContent:'space-between',marginTop:'10px'}}>
+                        <h3>10GB Unlimited Bundle <br />Ghs 40.00</h3>
+                        <button style={{ background: 'rgba(6, 154, 217, 1)', color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px' }}>
+                        Buy now <FontAwesomeIcon icon={faArrowRight} />
+                        </button>
+                        </div>
+                    
+                </div> 
+                <div>
+                        <img src={at} alt="" />
+                        <div style={{display:'flex',justifyContent:'space-between',marginTop:'10px'}}>
+                        <h3>10GB Unlimited Bundle <br /> Ghs 40.00</h3>
+                        <button style={{ background: 'rgba(6, 154, 217, 1)', color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px' }}>
+                        Buy now <FontAwesomeIcon icon={faArrowRight} />
+                        </button>
+                        </div>
+                </div>
+                <div>
+                        <img src={at} alt="" />
+                        <div style={{display:'flex',justifyContent:'space-between',marginTop:'10px'}}>
+                        <h3>10GB Unlimited Bundle <br /> Ghs 40.00</h3>
+                        <button style={{ background: 'rgba(6, 154, 217, 1)', color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px' }}>
+                        Buy now <FontAwesomeIcon icon={faArrowRight} />
+                        </button>
+                        </div>
+                </div>
+                <div>
+                        <img src={mtn} alt="" />
+                        <div style={{display:'flex',justifyContent:'space-between',marginTop:'10px'}}>
+                        <h3>10GB Unlimited Bundle <br /> Ghs 40.00</h3>
+                        <button style={{ background: 'rgba(6, 154, 217, 1)', color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px' }}>
+                        Buy now <FontAwesomeIcon icon={faArrowRight} />
+                        </button>
+                        </div>
+                </div>
+                <div>
+                        <img src={mtn} alt="" />
+                        <div style={{display:'flex',justifyContent:'space-between',marginTop:'10px'}}>
+                        <h3>10GB Unlimited Bundle <br /> Ghs 40.00</h3>
+                        <button style={{ background: 'rgba(6, 154, 217, 1)', color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px' }}>
+                        Buy now <FontAwesomeIcon icon={faArrowRight} />
+                        </button>
+                        </div>
+                </div>
+                <div>
+                        <img src={mtn} alt="" />
+                        <div style={{display:'flex',justifyContent:'space-between',marginTop:'10px'}}>
+                        <h3>10GB Unlimited Bundle <br /> Ghs 40.00</h3>
+                        <button style={{ background: 'rgba(6, 154, 217, 1)', color: 'white', width: '70px', height: '20px', borderRadius: '45px', fontSize: '10px' }}>
+                        Buy now <FontAwesomeIcon icon={faArrowRight} />
+                        </button>
+                        </div>
+                </div>
+            </div>
             </div>
 
             <div className="right-side">
@@ -414,6 +448,34 @@ const Home = () => {
     
 
          </div>
+         {/* <div class="container overflow-hidden">
+            <div class="row gy-5">
+                <div class="col-4">
+                    <div class="p-3 border bg-light"style={{width:'360px',height:'570px',display:'flex',alignItems:'center',justifyContent:'center'}}>
+                        <img src={whiteheadphones} alt="" />
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="row gy-5 flex-column">
+                        <div class="col-12">
+                            <div class="p-3 border bg-light" style={{width:'190px',height:'150px',display:'flex',alignItems:'center',justifyContent:'center'}}>
+                                <img src={whiteheadphones} alt="" style={{width:'90px',height:'130px'}} />
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="p-3 border bg-light" style={{width:'190px',height:'150px',display:'flex',alignItems:'center',justifyContent:'center'}}>
+                               <img src={whiteheadphones} alt="" style={{width:'90px',height:'130px'}}/>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="p-3 border bg-light" style={{width:'190px',height:'150px',display:'flex',alignItems:'center',justifyContent:'center'}}>
+                                <img src={whiteheadphones} alt=""  style={{width:'90px',height:'130px'}}/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div> */}
          <Footer />
     </div>
     
