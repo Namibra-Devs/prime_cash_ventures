@@ -28,9 +28,9 @@ const Home = () => {
             </div>
         </div>
         <div className="maindiv">
-            <div className="">
+            <div className="right">
 
-            <div className="container-fluid " id='product'>
+            {/* <div className="container-fluid " id='product'>
                     <div className='product-img'style={{display:'flex',justifyContent:'center'}}>
                         <div className="headphone-main">
                         <img src={whiteheadphones} alt="" style={{marginTop:'30px'}}/>
@@ -60,41 +60,60 @@ const Home = () => {
                     </div>
                     </div>
                 
-            </div>
-            {/* <div class="container overflow-hidden">
+            </div>  */}
+
+            <div class="container bg-white" style={{marginLeft:'130px',paddingTop:'30px',width:'90%',height:'auto',marginTop:'20px',maxWidth:'730px'}}>
                 <div class="row gy-5">
                     <div class="col-4">
-                        <div className="p-3 border bg-light" style={{width:'360px', height:'570px', paddingLeft:"100px"}}>
+                        <div className="border bg-light" style={{width:'360px', height:'570px', paddingLeft:"100px"}}>
                             <img src={whiteheadphones} alt="" />
                         </div>
                     </div>
                     <div class="col-8">
-                        <div class="row gy-5 flex-column" style={{ paddingLeft: '60px' }}>
+                        <div class="row gy-4 flex-column" style={{paddingLeft:'230px'}}>
                             <div class="col-12 d-flex">
-                                <div class="p-3 border bg-light" style={{width:'190px', height:'150px', display:'flex', alignItems:'center', justifyContent:'center'}}>
+                                <div class="border bg-dark" style={{width:'190px', height:'150px', display:'flex', alignItems:'center', justifyContent:'center'}}>
                                     <img src={whiteheadphones} alt="" style={{width:'90px', height:'130px'}} />
                                 </div>
                             </div>
-                            <div class="col-12">
-                                <div class="p-3 border bg-light" style={{width:'190px', height:'150px', display:'flex', alignItems:'center', justifyContent:'center'}}>
-                                    <img src={whiteheadphones} alt="" style={{width:'90px', height:'130px'}} />
+                            <div class="col-12 d-flex">
+                                <div class="border bg-dark" style={{width:'190px', height:'150px', display:'flex', alignItems:'center', justifyContent:'center'}}>
+                                    <img src={whiteheadphones} alt="" style={{width:'90px', height:'130px',maxWidth:'100%'}} />
                                 </div>
                             </div>
-                            <div class="col-12">
-                                <div class="p-3 border bg-light" style={{width:'190px', height:'150px', display:'flex', alignItems:'center', justifyContent:'center'}}>
+                            <div class="col-12 d-flex">
+                                <div class="border bg-dark" style={{width:'190px', height:'150px', display:'flex', alignItems:'center', justifyContent:'center'}}>
                                     <img src={whiteheadphones} alt="" style={{width:'90px', height:'130px'}} />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div> */}
+                <div className="container-fluid bg-black" style={{padding:'0',margin:'0',width:'100%',color:'white', display: 'flex', flexDirection: 'column', alignItems: 'flex-start',boxSizing:'border-box'}}>
+                <h4>Samsung Headphones</h4>
+                <div style={{display: 'flex', alignItems: 'center'}}>
+                    <img src={star_icon} alt="" />
+                    <img src={star_icon} alt="" />
+                    <img src={star_icon} alt="" />
+                    <img src={star_icon} alt="" />
+                    <img src={star_icon} alt="" />
+                </div>
+                <p>Ghs 45000.00</p>
+
+                <div style={{alignSelf: 'flex-end',marginRight:'30px'}}>
+                    <button>Buy now</button>
+                </div>
+
+                </div>
+
+                
+            </div>
 
 
 
-            <div className="items-background" style={{marginTop:'20px',background:'rgba(255, 255, 255, 1)', marginLeft:'130px'}}>
-            <div className="items row">
-                <div className='col-sm-6 col-12'>
+            {/* <div className="items-background" style={{marginTop:'20px',background:'rgba(255, 255, 255, 1)', marginLeft:'130px'}}>
+            <div className="items">
+                <div className=''>
                     <a href="/productdetails">
                     <img src={laptop} alt=""  className='img-fluid'/>
                     <div style={{height:'50px',width:'200px',marginLeft:'-10px',background:'rgba(51, 51, 51, 1)',color:'white',display:'flex',marginTop:'20px',justifyContent:'space-between'}}>
@@ -108,7 +127,7 @@ const Home = () => {
                     </a>   
                 </div>
 
-                <div className='col-sm-6 col-12'>
+                <div className=''>
                     <img src={pad} alt="" />
                     <div style={{height:'50px',width:'200px',marginLeft:'-10px',background:'rgba(51, 51, 51, 1)',color:'white',display:'flex',marginTop:'20px',justifyContent:'space-between'}}>
                     <h3>XBOX Game Pad <br /> Ghs 45,000.00</h3>
@@ -120,7 +139,7 @@ const Home = () => {
                 
                 </div>
 
-                <div className='col-sm-6 col-12'>
+                <div className=''>
                     <img src={rerouter} alt="" />
                     <div style={{height:'50px',width:'200px',marginLeft:'-10px',background:'rgba(51, 51, 51, 1)',color:'white',display:'flex',marginTop:'20px',justifyContent:'space-between'}}>
                     <h3>XBOX Game Pad <br /> Ghs 45,000.00</h3>
@@ -132,7 +151,7 @@ const Home = () => {
                     
                 </div>
 
-                <div className='col-sm-6 col-12'>
+                <div className=''>
                     <img src={laptop} alt="" />
                     <div style={{height:'50px',width:'200px',marginLeft:'-10px',background:'rgba(51, 51, 51, 1)',color:'white',display:'flex',marginTop:'20px',justifyContent:'space-between'}}>
                     <h3>XBOX Game Pad <br /> Ghs 45,000.00</h3>
@@ -144,7 +163,7 @@ const Home = () => {
                     
                 </div>
 
-                <div className='col-sm-6 col-12'>
+                <div className=''>
                     <img src={pad} alt="" />
                     <div style={{height:'50px',width:'200px',marginLeft:'-10px',background:'rgba(51, 51, 51, 1)',color:'white',display:'flex',marginTop:'20px',justifyContent:'space-between'}}>
                     <h3>XBOX Game Pad <br /> Ghs 45,000.00</h3>
@@ -156,7 +175,7 @@ const Home = () => {
                 
                 </div>
 
-                <div className='col-sm-6 col-12'>
+                <div className=''>
                     <img src={rerouter} alt="" />
                     <div style={{height:'50px',width:'200px',marginLeft:'-10px',background:'rgba(51, 51, 51, 1)',color:'white',display:'flex',marginTop:'20px',justifyContent:'space-between'}}>
                     <h3>XBOX Game Pad <br /> Ghs 45,000.00</h3>
@@ -169,10 +188,86 @@ const Home = () => {
                 </div>
 
             </div>
+            </div> */}
+            <div className='bg-white' style={{width:'730px',height:'auto',marginTop:'30px',marginLeft:'130px'}}>
+            <div class="container mt-4">
+            <div class="row">
+            <div class="col-md-4 mt-4">
+                <div class="box">
+                    <div>
+                        <img src={laptop} alt="" style={{width:'140px',height:'100px'}} />
+                    </div>
+                    <div className='text-white container-fluid' style={{background:'rgba(51, 51, 51, 1)',padding:'0',boxSizing:'border-box',width:'100%d'}}>
+                        <h4 style={{fontSize:'13px',margin:'0'}}>Macbook Laptop1</h4>
+                        <h4 style={{fontSize:'13px'}}>Ghs 45000.00</h4>
+                    </div>
+                    
+                </div>
             </div>
+            <div class="col-md-4 mt-4">
+                <div class="box">
+                  <div>
+                        <img src={laptop} alt="" style={{width:'140px',height:'100px'}} />
+                    </div>
+                    <div className='text-white container-fluid' style={{width:'100%', background:'rgba(51, 51, 51, 1)',padding:'0',boxSizing:'border-box'}}>
+                        <h4 style={{fontSize:'13px',margin:'0'}}>Macbook Laptop</h4>
+                        <h4 style={{fontSize:'13px'}}>Ghs 45000.00</h4>
+                    </div>  
+                </div>
+            </div>
+            <div class="col-md-4 mt-4">
+                <div class="box">
+                <div>
+                        <img src={laptop} alt="" style={{width:'140px',height:'100px'}} />
+                </div>
+                    <div className='text-white container-fluid' style={{width:'100%', background:'rgba(51, 51, 51, 1)',padding:'0',boxSizing:'border-box'}}>
+                        <h4 style={{fontSize:'13px',margin:'0'}}>Macbook Laptop</h4>
+                        <h4 style={{fontSize:'13px'}}>Ghs 45000.00</h4>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="row mt-3 ">
+            <div class="col-md-4">
+                <div class="box">
+                <div>
+                        <img src={laptop} alt="" style={{width:'140px',height:'100px'}} />
+                    </div>
+                    <div className='text-white container-fluid' style={{width:'100%', background:'rgba(51, 51, 51, 1)',padding:'0',boxSizing:'border-box'}}>
+                        <h4 style={{fontSize:'13px',margin:'0'}}>Macbook Laptop</h4>
+                        <h4 style={{fontSize:'13px'}}>Ghs 45000.00</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="box">
+                <div>
+                        <img src={laptop} alt="" style={{width:'140px',height:'100px'}} />
+                    </div>
+                    <div className='text-white container-fluid' style={{width:'100%', background:'rgba(51, 51, 51, 1)',padding:'0',boxSizing:'border-box'}}>
+                        <h4 style={{fontSize:'13px',margin:'0'}}>Macbook Laptop</h4>
+                        <h4 style={{fontSize:'13px'}}>Ghs 45000.00</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="box">
+                <div>
+                        <img src={laptop} alt="" style={{width:'140px',height:'100px'}} />
+                    </div>
+                    <div className='text-white container-fluid' style={{width:'100%', background:'rgba(51, 51, 51, 1)',padding:'0',boxSizing:'border-box'}}>
+                        <h4 style={{fontSize:'13px',margin:'0'}}>Macbook Laptop</h4>
+                        <h4 style={{fontSize:'13px'}}>Ghs 45000.00</h4>
+                    </div>
+                </div>
+            </div>
+            </div>
+             </div>
+            </div>
+            
 
 
-            <div className="bundles">
+            {/* <div className="bundles">
                 <div>
                         <img src={at} alt=""/>
                         <div style={{display:'flex',justifyContent:'space-between',marginTop:'10px'}}>
@@ -228,7 +323,7 @@ const Home = () => {
                         </button>
                         </div>
                 </div>
-            </div>
+            </div> */}
             </div>
 
             <div className="right-side">
@@ -438,7 +533,7 @@ const Home = () => {
                     
                         
                     </div>
-            
+            +
 
             </div>
             
